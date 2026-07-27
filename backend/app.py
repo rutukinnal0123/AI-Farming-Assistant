@@ -2,6 +2,7 @@ from fastapi import FastAPI, Depends, HTTPException,Header
 from sqlalchemy.orm import Session
 from auth import router as auth_router
 from chat import router as chat_router
+from cnn_routes import router as cnn_router
 import crud
 import models
 import schemas
@@ -21,6 +22,7 @@ app = FastAPI(
 )
 app.include_router(auth_router)
 app.include_router(chat_router)
+app.include_router(cnn_router)
 
 # ===========================================================
 # Database Dependency
