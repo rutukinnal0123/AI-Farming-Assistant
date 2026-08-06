@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain_chroma import Chroma
 
 # =====================================================
 # CONFIGURATION
@@ -106,23 +106,17 @@ def create_vector_db(chunks):
         model_name=EMBEDDING_MODEL
 
     )
-    print("Creating FAISS...")
+    print("Creating CHroma ...")
     
     print(chunks[:2])
 
-    vector_db = FAISS.from_documents(
+    vector_db = Chroma.from_documents(
+    documents=chunks,
+    embedding=embeddings,
+    persist_directory="rag/chroma_db"
+)
 
-        chunks,
-
-        embeddings
-
-    )
-
-    VECTOR_FOLDER.mkdir(exist_ok=True)
-
-    vector_db.save_local(str(VECTOR_FOLDER))
-
-    print("\n✅ FAISS Database Saved Successfully")
+    print("\n✅ Chroma Database Saved Successfully")
 
 
 # =====================================================
