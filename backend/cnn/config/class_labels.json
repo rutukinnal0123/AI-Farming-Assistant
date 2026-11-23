@@ -1,0 +1,145 @@
+{
+    "plant": {
+        "classes": [
+            "Banana",
+            "Coconut",
+            "Coffee",
+            "Mango",
+            "Rice"
+        ],
+        "class_to_index": {
+            "Banana": 0,
+            "Coconut": 1,
+            "Coffee": 2,
+            "Mango": 3,
+            "Rice": 4
+        }
+    },
+
+    "banana": {
+        "classes": [
+            "Cordana",
+            "Healthy",
+            "Insect_Pest",
+            "Nutrient_Deficiency",
+            "Pestalotiopsis",
+            "Sigatoka",
+            "Systemic_Disease"
+        ],
+        "class_to_index": {
+            "Cordana": 0,
+            "Healthy": 1,
+            "Insect_Pest": 2,
+            "Nutrient_Deficiency": 3,
+            "Pestalotiopsis": 4,
+            "Sigatoka": 5,
+            "Systemic_Disease": 6
+        }
+    },
+
+    "coconut": {
+        "classes": [
+            "Bud Root Dropping",
+            "Bud Rot",
+            "CCI Caterpillars",
+            "CCI Leaflets",
+            "Gray Leaf Spot",
+            "Healthy Leaves",
+            "Leaf Rot",
+            "Stem Bleeding",
+            "WCLWD DryingofLeaflets",
+            "WCLWD Flaccidity",
+            "WCLWD Yellowing"
+        ],
+        "class_to_index": {
+            "Bud Root Dropping": 0,
+            "Bud Rot": 1,
+            "CCI Caterpillars": 2,
+            "CCI Leaflets": 3,
+            "Gray Leaf Spot": 4,
+            "Healthy Leaves": 5,
+            "Leaf Rot": 6,
+            "Stem Bleeding": 7,
+            "WCLWD DryingofLeaflets": 8,
+            "WCLWD Flaccidity": 9,
+            "WCLWD Yellowing": 10
+        }
+    },
+
+    "coffee": {
+        "classes": [
+            "Healthy",
+            "Miner",
+            "Leaf rust",
+            "Cerscospora",
+            "Phoma"
+        ],
+        "class_to_index": {
+            "Healthy": 0,
+            "Miner": 1,
+            "Leaf rust": 2,
+            "Cerscospora": 3,
+            "Phoma": 4
+        }
+    },
+
+    "mango": {
+        "classes": [
+            "Anthracnose",
+            "Bacterial Canker",
+            "Cutting Weevil",
+            "Die Back",
+            "Gall Midge",
+            "Healthy",
+            "Powdery Mildew",
+            "Sooty Mould"
+        ],
+        "class_to_index": {
+            "Anthracnose": 0,
+            "Bacterial Canker": 1,
+            "Cutting Weevil": 2,
+            "Die Back": 3,
+            "Gall Midge": 4,
+            "Healthy": 5,
+            "Powdery Mildew": 6,
+            "Sooty Mould": 7
+        }
+    },
+
+    "rice": {
+        "classes": [
+            "Healthy",
+            "Bacterial Leaf Blight",
+            "Blast",
+            "Brown Spot",
+            "Sheath Blight",
+            "Tungro",
+            "Leaf Scald",
+            "Leaf Smut",
+            "Downy Mildew",
+            "Bacterial Leaf Streak",
+            "Rice Hispa",
+            "White Stem Borer",
+            "Leaf Roller",
+            "Yellow Stem Borer",
+            "Black Stem Borer"
+        ],
+        "class_to_index": {
+            "Healthy": 0,
+            "Bacterial Leaf Blight": 1,
+            "Blast": 2,
+            "Brown Spot": 3,
+            "Sheath Blight": 4,
+            "Tungro": 5,
+            "Leaf Scald": 6,
+            "Leaf Smut": 7,
+            "Downy Mildew": 8,
+            "Bacterial Leaf Streak": 9,
+            "Rice Hispa": 10,
+            "White Stem Borer": 11,
+            "Leaf Roller": 12,
+            "Yellow Stem Borer": 13,
+            "Black Stem Borer": 14
+        }
+    }
+}
